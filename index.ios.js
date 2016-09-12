@@ -34,7 +34,7 @@ class LoginWithRedux extends Component {
       <View style={styles.container}>
       <TextInput style={styles.textInput} placeholder="Username"/>
       <TextInput style={styles.textInput} placeholder="Password"/>
-      <TouchableHighlight style={{padding: 10, backgroundColor: '#fed136'}}>
+      <TouchableHighlight style={{padding: 15, backgroundColor: '#fed136'}}>
         <Text style={styles.welcome}>
           Get Cookin'
         </Text>
@@ -52,7 +52,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   textInput: {
-    height: 30,
+    height: 40,
+    fontSize: 20,
     textAlign: 'center'
   },
   welcome: {
